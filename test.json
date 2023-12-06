@@ -1,0 +1,9 @@
+{
+    "string":"aya",
+    "number":22,
+    "object":{"eg":"giza" , "KSA":"riyad"},
+    "array":["html" , "css" ,"js"],
+    "boolean":true,
+    "null":null
+
+}
