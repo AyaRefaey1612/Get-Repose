@@ -78,3 +78,35 @@ margin-bottom: 5px;
 .container .noData .repos-box span{
   background-color: #a9a0dd;
 }
+
+@media(max-width:814px){
+  .container{
+    width: 100%;
+  }
+  .container .noData .repos-box a,
+  .container .noData .repos-box span{
+    font-size: 10px;
+    width: 60px;
+    font-weight: bolder;
+  }
+
+  .container .getRepose .buttonRepose {
+    font-size: 12px;
+  }
+
+  .container .noData .repos-box {
+    position: relative;
+  }
+  .container .noData .repos-box a{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+  }
+
+  .container .noData .repos-box span {
+    background-color: #a9a0dd;
+    right: 1px;
+    position: absolute;
+    bottom: 5px;
+  }
+}
